@@ -1,0 +1,11 @@
+@media (min-width : 700px) {
+  /* Global */
+  #navbar {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em) 1fr);
+  }
+
+  #navbar ul{
+    grid-column: 2/3;
+  }
+}

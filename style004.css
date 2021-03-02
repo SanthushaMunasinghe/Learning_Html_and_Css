@@ -1,0 +1,100 @@
+/* Global */
+
+body {
+  font: Arial, Helvetica, sans-serif;
+  background-color: #02293b;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.content-wrapper {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.highlight, .current {
+  color: #ff7f5f;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover, #menu:hover {
+  color: #888;
+  text-decoration: underline;
+}
+
+a:active, #menu:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Main Header */
+
+#main-header {
+  background: #35424a;
+  padding: 1em;
+  margin: 0;
+}
+
+/* Section-A */
+
+.section-a {
+  margin: 3em 0;
+}
+
+.section-a p{
+  background: #35424a;
+  padding: 1em;
+  text-align: justify;
+}
+
+/* Card content */
+
+.card-content ul {
+  list-style: none;
+  line-height: 2rem;
+  text-align: start;
+}
+
+/* Section C */
+
+#section-c {
+  margin: 2rem 0;
+  background: #35424a;
+  padding: 1rem 0;
+}
+
+#section-c ul {
+  text-align: start;
+}
+
+
+
+/* Main Footer */
+
+#main-footer{
+  background: #35424a;
+  margin: 1rem 0.5rem;
+  padding: 10px;
+}
+
+#main-footer h4 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+#main-footer p {
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
